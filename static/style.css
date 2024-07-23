@@ -1,0 +1,13 @@
+body {
+  background-color: red;
+}
+
+#welcome {
+  text-align: center;
+  color: yellow;
+}
+
+.banner {
+  display:flex;
+  justify-content:center;
+}
