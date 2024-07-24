@@ -1,5 +1,4 @@
-body {
-  max_width: 800px;
+body {  
   background-color: red;
 }
 
@@ -11,10 +10,4 @@ body {
 .banner {
   display:flex;
   justify-content:center; 
-}
-
-#container{
-  background-color:red;
-  max-width: 800px;
-  margin: 0 auto;
 }
