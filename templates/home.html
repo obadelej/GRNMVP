@@ -5,22 +5,40 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
         <link type= "text/css" rel="stylesheet" href="/static/style.css">
         
         
     </head>
     <body>
+        <div class="container">       
         
-            <h1 id="welcome">473 MVP website</h1>
+            <h1 id="welcome">473 MVP Website</h1>
             <!-- <include src="navbar.html"> -->
+            {% include 'navbar.html' %}
             <div class="banner">
-                <img id="banner" src="/static/mvp_website_banner.jpg">
-            </div>
-       
+                <img class="img-fluid" id="banner" src="/static/mvp_website_banner.jpg">
+            </div> 
+                <p class="lead">
+                    Lorem ipsum odor amet, consectetuer adipiscing elit. Sit nam fusce blandit consequat porta. Efficitur egestas molestie efficitur finibus dignissim habitasse natoque                        aptent? Euismod massa odio morbi metus felis lectus torquent. Arcu ullamcorper nunc libero phasellus tempus imperdiet elit nec. Elit volutpat dictum dis nulla dictum                      potenti. Nec netus himenaeos elementum ut neque integer fusce eleifend. Sodales efficitur vehicula ultrices varius euismod; taciti ridiculus ut.
+                </p>
+
+                <p>
+                Magna fusce feugiat nostra aliquam gravida feugiat? Lectus pulvinar ullamcorper class tortor mauris, metus rutrum elementum. Mi non egestas nunc nostra pulvinar nisi                     ipsum feugiat. Lorem facilisis pharetra litora ac aptent posuere mus vulputate. Orci lobortis neque dui morbi hac inceptos ante. Tempus mus tortor; metus sodales libero                     massa.
+                </p>
+
+                <p>
+                Suspendisse proin egestas erat ullamcorper natoque. Suspendisse neque hac donec massa ornare aliquet sagittis. Vitae facilisi est fermentum interdum varius ultricies sem                     orci. Vitae fermentum in et amet nullam semper. Sit est eget eget duis maecenas sem magna enim nisi. Gravida lectus pretium convallis mi phasellus sapien tristique                     nisl laoreet. Per viverra nullam porta augue feugiat facilisis. In a tellus curabitur ridiculus potenti primis dictum vulputate. Praesent enim tempus sociosqu senectus                     sem tempor iaculis netus scelerisque.
+            </p>
         
-            
         
-        
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        </div>
+
+        <div class="text-center">
+            <button class="btn btn-primary btn-lg mb-2" type="button">Contact Us</button>
+            <p id="footer">
+                Copyright 473 MVP 2024, All rights reserved.
+            </p>
+        </div>
     </body>
 </html>

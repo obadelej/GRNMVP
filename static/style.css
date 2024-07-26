@@ -1,5 +1,5 @@
 body {  
-  background-color: red;
+  background-color: rgb(33,33,33);
 }
 
 #welcome {
@@ -10,4 +10,13 @@ body {
 .banner {
   display:flex;
   justify-content:center; 
+}
+
+p{
+  color: white;
+}
+
+#footer {
+  text-align: center;
+  color: yellow;
 }
