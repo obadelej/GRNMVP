@@ -2,21 +2,83 @@ body {
   background-color: rgb(33,33,33);
 }
 
-#welcome {
-  text-align: center;
-  color: yellow;
+#topbar {
+  width: 100%;
+  height: 34px;
+  background-color:red;
+  margin: 0px auto;
+  text-align:center;
 }
 
-.banner {
+#logo {
+  width: 146px;
+  height: 127px;
+  display: block;
+  margin-left: 60%;
+  margin-right: auto; 
+  
+}
+
+#header {
+  height:130px;
+  width: 100%;
+  background-color:white;
+  margin: 0px auto;
+}
+
+#welcome {
+  text-align: left;
+  padding: 20px 0px;
+  color: black;
+  
+}
+
+/* .banner {
   display:flex;
   justify-content:center; 
 }
+ */
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: Red;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#mvpinfo {
+  width:100%;
+  border: 2px solid red;
+  padding: 10px;
+  /* margin: 10px; */
+  background-color:white;
+  color: black;
+}
+
+#mvpvision {
+  width:100%;
+  border: 2px solid red;
+  padding: 10px;
+  /* margin: 10px; */
+  background-color:white;
+  color: black;
+}
+
+ #mvpmission {
+   width:100%;
+   border: 2px solid red;
+   padding: 10px;
+   /* margin: 10px; */
+   background-color:white;
+   color: black;
+ }
 
 p{
-  color: white;
+  color: black;
 }
 
 #footer {
   text-align: center;
-  color: yellow;
+  color: white;
 }

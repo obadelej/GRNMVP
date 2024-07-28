@@ -11,34 +11,75 @@
         
     </head>
     <body>
-        <div class="container">       
-        
-            <h1 id="welcome">473 MVP Website</h1>
-            <!-- <include src="navbar.html"> -->
-            {% include 'navbar.html' %}
+        <div class="container">
+            <div id="topbar">
+                <h6>Phone: 1(473)418-8618 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Email: 473mvp@gmail.com</h6>
+            </div>
+            <div id="header" class="row">
+                <div class="col-6">
+                    <img id="logo" src= "/static/MVP_Logo_trans_bg3.png">
+                </div>
+                <div class="col-6" id="welcome">
+                    <h1><b>473 MVP Track <br> and Field Club</b></h1>
+                </div>                
+            </div>
+            
+            <div class="navbar">
+                {% include 'navbar.html' %}
+            </div>
             <div class="banner">
-                <img class="img-fluid" id="banner" src="/static/mvp_website_banner.jpg">
-            </div> 
-                <p class="lead">
-                    Lorem ipsum odor amet, consectetuer adipiscing elit. Sit nam fusce blandit consequat porta. Efficitur egestas molestie efficitur finibus dignissim habitasse natoque                        aptent? Euismod massa odio morbi metus felis lectus torquent. Arcu ullamcorper nunc libero phasellus tempus imperdiet elit nec. Elit volutpat dictum dis nulla dictum                      potenti. Nec netus himenaeos elementum ut neque integer fusce eleifend. Sodales efficitur vehicula ultrices varius euismod; taciti ridiculus ut.
-                </p>
+                <img src="/static/mvp_website_banner.jpg" style="width:100%; height:auto;">
+            </div>
 
+            <div id="mvpinfo">
+                <h2>473 MVP Track and Field Club</h2>
                 <p>
-                Magna fusce feugiat nostra aliquam gravida feugiat? Lectus pulvinar ullamcorper class tortor mauris, metus rutrum elementum. Mi non egestas nunc nostra pulvinar nisi                     ipsum feugiat. Lorem facilisis pharetra litora ac aptent posuere mus vulputate. Orci lobortis neque dui morbi hac inceptos ante. Tempus mus tortor; metus sodales libero                     massa.
+                    473 MVP track and field club started in 2020 as an offshoot of the Speedzone Athletics. MVP currently has 3 directors and an Executive board that runs the affairs of                     the club. Training is headed by Coach Albert Joseph with assistance from coaches Shana Perrotte and Obadele Joseph. Shana assist in the running events and Obadele in                      the throwing events.
+
+                    The club currently has over 60 athletes, most of them in the spints while a few does field events. 
                 </p>
+            </div>
 
+            <div id="mvpvision">
+                <div class="row">
+                    <div class="col-9">
+                        <h2>Our Vision</h2>
+                        <p>
+                            Providing an avenue for athletes to develop into top performers at the local, regional, and international competitions thus gaining scholarships to further                                 their education so they have a career after track.
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <img src="/static/mvp1_1.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div id="mvpmission">
+                <h2>Our Vision</h2>
                 <p>
-                Suspendisse proin egestas erat ullamcorper natoque. Suspendisse neque hac donec massa ornare aliquet sagittis. Vitae facilisi est fermentum interdum varius ultricies sem                     orci. Vitae fermentum in et amet nullam semper. Sit est eget eget duis maecenas sem magna enim nisi. Gravida lectus pretium convallis mi phasellus sapien tristique                     nisl laoreet. Per viverra nullam porta augue feugiat facilisis. In a tellus curabitur ridiculus potenti primis dictum vulputate. Praesent enim tempus sociosqu senectus                     sem tempor iaculis netus scelerisque.
-            </p>
-        
-        
-        </div>
+                    Empowering youths through athletics to bring about positive change and to develop world class athletes with a home base programme.
+                </p>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="/static/shantay_hurdles2.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="/static/boys_4x4.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="/static/Jahvid1.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="/static/Ethan1.jpg">
+                    </div>
+                </div>    
+               
+            </div>
 
-        <div class="text-center">
-            <button class="btn btn-primary btn-lg mb-2" type="button">Contact Us</button>
-            <p id="footer">
-                Copyright 473 MVP 2024, All rights reserved.
-            </p>
+            <div id="footer">
+                {% include 'footer.html' %}
+            </div>
         </div>
+    
     </body>
 </html>
